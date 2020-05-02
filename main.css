@@ -17,8 +17,10 @@ header {
 }
 
 #header-img {
-  width: 85px;
-  height: 85px;
+  position: relative;
+  left: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 #header-section {
@@ -39,7 +41,7 @@ nav {
   z-index: 1;
 }
 
-ul li {
+nav ul li {
   display: inline-block;
   margin: 0 30px;
 }
@@ -50,9 +52,32 @@ ul li {
   align-content: center;
   align-items: center;
   padding: 20px;
+  background: linear-gradient(#005c99, #006bb3, #007acc, #006bb3,#005c99);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.banner-section {
+  display: block;
+  text-align: center;
+}
+
+.small-icon {
+  width: 75px;
+  height: 75px;
 }
 
 h1 {
-  font-size: 9vh;
+  font-size: 7vh;
   line-height: 1.2;
+}
+
+video {
+  width: 1000px;
+  height: auto;
+}
+#video-div {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
 }
