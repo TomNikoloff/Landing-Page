@@ -1,0 +1,58 @@
+
+* {
+  border-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url("images/plantlight-background1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#header-img {
+  width: 85px;
+  height: 85px;
+}
+
+#header-section {
+  position: absolute;
+  top: 15%;
+  left:3%;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+#banner {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 9vh;
+  line-height: 1.2;
+}
