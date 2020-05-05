@@ -76,8 +76,32 @@ video {
   width: 1000px;
   height: auto;
 }
-#video-div {
+.video-div {
   display: block;
   text-align: center;
   margin: 20px auto;
+  line-height: 1.5;
+}
+
+ #features {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: center;
+   align-items: center;
+   padding: 10vh;
+   background: linear-gradient(#005c99, #006bb3, #007acc, #006bb3,#005c99);
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+ }
+
+ .features-section {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 360px;
+  max-width: 100%;
+  text-align: center;
+  padding: 1em;
+  background: lightgrey;
+  line-height: 1.5;
 }
