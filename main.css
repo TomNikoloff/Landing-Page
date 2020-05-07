@@ -102,8 +102,9 @@ video {
   max-width: 100%;
   text-align: center;
   padding: 1em;
-  background: lightgrey;
+  background: white;
   line-height: 1.5;
+  box-shadow: 0 0px 15px black;
 }
 
 h2 {
@@ -131,4 +132,32 @@ h2 {
 
 #made-img {
   width: 99%;
+}
+
+#gallery-banner {
+  background-image: url("images/bonsai.jpg");
+  background-size: cover;
+  height: 450px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#gallery {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+.gallery-div {
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 1.5;
+  width: 50%;
+}
+
+.gallery-img {
+  width: 500px;
+  max-width: 100%;
 }
