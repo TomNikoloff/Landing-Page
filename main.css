@@ -105,3 +105,30 @@ video {
   background: lightgrey;
   line-height: 1.5;
 }
+
+h2 {
+  text-align: center;
+}
+
+#main-made {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+#made {
+  position: relative;
+  width: 560px;
+  max-width: 100%;
+  height: 315px;
+  margin: 0 10px 5vh 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#made-img {
+  width: 99%;
+}
