@@ -122,11 +122,10 @@
         </div>
     </main>
     <footer>
-      <div id="contact">
-        <div class="footer-row">
-          <div class="footer-column">
-            <h2>Find Us On<h2>
-              <div>
+      <div id="top-footer">
+        <section class="social footer-section">
+          <h2>Find Us On<h2>
+              <div class="social-icons">
                 <a href="https://www.youtube.com/" target="_blank">
                   <img src="images/youtube.png" alt="Youtube Logo" class="social-icon">
                 </a>
@@ -140,25 +139,38 @@
                   <img src="images/twitter.png" alt="Twitter Logo" class="social-icon">
                 </a>
               </div>
-          </div>
-          <div class="footer-column contact-text" >
-            <h2>Careers</h2>
-            <a href="#" target=_blank>Glass Production</a>
-            <br>
-            <a href="#" target="_blank">Electronics</a>
-            <br>
-            <a href="#" target="_blank">Horticulture</a>
-            <br>
-            <a href="#" target="_blank">Metal Work</a>
-          </div>
-          <div class="footer-column contact-text">
+        </section>
+        <section class="contact footer-section">
+          <h2>Careers</h2>
+          <ul id="contact-contents">
+            <a class="a" href="#" target=_blank>
+              <li>Glass Production</li>
+            </a>
+
+            <a class="a"href="#" target="_blank">
+              <li>Electronics</li>
+            </a>
+
+            <a class="a"href="#" target="_blank">
+              <li>Horticulture</li>
+            </a>
+
+            <a class="a"href="#" target="_blank">
+              <li>Metal Work</li>
+            </a>
+          </ul>
+        </section>
+        <section class="contact section">
             <h2>Contact Us</h2>
             <a href="#" target="_blank">info@bonzalight.com</a>
-          </div>
-          <div class="footer-column">
+        </section>
+        <section class="sign-up footer-section">
             <h2>Sign Up To Our Newsletter</h2>
-          </div>
-        </div>
+            <input id="email" type="email" name="email" placeholder="Enter your email here" required/>
+        </section>
+      </div>
+      <div id="bottom-footer">
+        <p class="my-info"><a href="#" target="_blank">Tom Nikoloff</a></p>
       </div>
     </footer>
   </body>
