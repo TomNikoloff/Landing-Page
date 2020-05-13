@@ -11,12 +11,22 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
+}
+
+main {
+    background-color: white;
 }
 
 header {
   background-image: url("images/plantlight-background1.jpg");
   background-size: cover;
   height: 100vh;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 10px;
 }
 
 #header-img {
@@ -131,7 +141,6 @@ h2 {
   justify-content: space-around;
   align-content: center;
   align-items: center;
-  margin-top: 2em;
 }
 
 #made {
@@ -163,7 +172,7 @@ h2 {
 
 #gallery {
   width: 90%;
-  margin: 50px auto 0;
+  margin: 0 auto 0;
   display: table;
   box-sizing: border-box;
 }
@@ -244,6 +253,9 @@ footer h2 {
 line-height: 2;
 }
 
+li:hover {
+  opacity: 0.6;
+}
 
 #email {
   border: none;
@@ -257,7 +269,7 @@ line-height: 2;
 }
 
 #submit {
-  padding: 0.4em;
+padding: 0.4em;
 background: linear-gradient(#333, #222, #111);
 border: 1px ridge #333333;
 border-radius: 3px;
@@ -265,8 +277,4 @@ font-family: var(--subheadings, sans-serif);
 font-weight: bold;
 letter-spacing: 2px;
 color: white;
-}
-
-.contact-link:hover {
-  text-decoration: underline;
 }
