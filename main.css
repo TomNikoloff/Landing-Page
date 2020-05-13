@@ -11,7 +11,6 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 header {
@@ -232,10 +231,6 @@ footer h2 {
 
 }
 
-.a:hover {
-  text-decoration: underline;
-}
-
 .social-icon {
   width: 50px;
   height: 50px;
@@ -259,4 +254,19 @@ line-height: 2;
 
 #bottom-footer {
   text-align: center;
+}
+
+#submit {
+  padding: 0.4em;
+background: linear-gradient(#333, #222, #111);
+border: 1px ridge #333333;
+border-radius: 3px;
+font-family: var(--subheadings, sans-serif);
+font-weight: bold;
+letter-spacing: 2px;
+color: white;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
